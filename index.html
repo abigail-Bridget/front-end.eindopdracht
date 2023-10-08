@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eindopdracht-Abigail</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<nav>
+    <div class="navLeft">
+        <img class="imgLogo" src="images/pokemon.gif" id="logo">
+    </div>
+    <div class="neon-wrapper">
+        <a href="#product" class="neon-button">
+            <div class="text">Article</div>
+            <a href="#Related" class="neon-button">
+                <div class="text">Related</div>
+                <a href="#contact" class="neon-button">
+                    <div class="text">Contact</div>
+                    <div class="bottom-shadow">
+                        <div class="embed">
+                            <style>
+                                .shadow {
+                                    pointer-events: none;
+                                }
+                            </style>
+
+                        </div>
+                    </div>
+                </a>
+            </a>
+        </a>
+    </div>
+</nav>
+
+
+<header>
+    <section class="mainArticle">
+        <h1 class="mainTitle"></h1>
+        <div class="mainFlexBox" id="product">
+            <div class="descriptionProduct">
+                <h2 class="productDescription">Hi There!</h2>
+                <p>Step into the enchanting realm of Neon Designs, where the dance between art and light transforms
+                    spaces into
+                    unforgettable visual experiences. Our neon designs are more than creations; they're an elevation of
+                    creativity, where
+                    the interplay of vibrant colors and daring shapes orchestrates a glowing symphony that captivates
+                    the senses. </p>
+
+                <p>we believe in pushing the boundaries of conventional design, infusing each creation
+                    with a touch of
+                    avant-garde brilliance. Whether adorning the walls of your living space, creating a signature look
+                    for your business, or
+                    setting the stage for a memorable event, our neon artworks breathe life into your vision.
+                </p>
+                <button class="infoButton">about us</button>
+                <button class="infoButton">products</button>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+    <section class="relatedArticles">
+        <h2>populair designs</h2>
+        <div class="articleFlexBox" id="Related">
+            <div class="product1">
+                <img src="./images/glow 2.gif" width="200px" height="200px" />
+
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+
+                <h3 class="title"> Scarlet Flow</h3>
+
+                <p>
+                    As the neon light twists, it creates a play of shadows,casting an
+                    ever-changing pattern.
+                </p>
+                <button class="infoButton">meer info</button>
+            </div>
+
+            <div class="product2">
+                <img src="./images/glow 1.gif" width="200px" height="200px">
+
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+
+
+                <h3 class="title"> Rainy glow</h3>
+                <p>
+                    The palette of green, purple, and pink hues comes together to evoke a sense of harmony and balance.
+                </p>
+                <button class="infoButton">meer info</button>
+            </div>
+
+            <div class="product3">
+                <img src="./images/9btS.gif" width="200px" height="200px">
+
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+
+                <h3 class="title"> Dynamic Spiral</h3>
+
+                <p>
+                    The design's defining feature is its continuous rotation, creating a sense of movement.
+
+                </p>
+                <button class="infoButton">meer info</button>
+            </div>
+        </div>
+
+
+        <section class="form-container" id="contact">
+            <form class="form" action="">
+                <h2>Contact form</h2>
+                <div class="name-container">
+                    <div>
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="firstname" placeholder="Enter your first name" required>
+                    </div>
+                    <div>
+                        <label for="surname">Surname</label>
+                        <input type="text" name="surname" placeholder="Enter your surname" required>
+                    </div>
+                </div>
+                <div class="email-container">
+                    <div>
+                        <label for="email">Mail address</label>
+                        <input type="email" name="email" placeholder="Enter your mail address" required>
+                    </div>
+                </div>
+                <div class="city-container">
+                    <div>
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" name="birthdate" required>
+                    </div>
+                    <div>
+                        <label for="city">City</label>
+                        <input type="text" name="city" placeholder="Please enter your current city" required>
+                    </div>
+                </div>
+                <div class="subject-container">
+                    <label for="subject">Subject</label>
+                    <select id="teachers" name="send-to" required>
+                        <option value="">Choose Subject...</option>
+                        <option value="0">Feedback</option>
+                        <option value="1">contact</option>
+                        <option value="2">Complain</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="question">Your comment</label>
+                    <textarea name="question" id="question" cols="30" rows="10" placeholder="Please enter your comment"
+                        required></textarea>
+                </div>
+                <div class="newsletter-container">
+                    <label for="categorie">Sign up for our Newsletter?</label>
+                    <div class="radio-buttons">
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="yes" id="yes">
+                        <label for="no">No</label>
+                        <input type="radio" name="no" id="no">
+                    </div>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" name="agree" id="agree">
+                    <label for="voorwarden">I accept the terms and conditions</label>
+                </div>
+                <button class="sub" type="submit">submit</button>
+            </form>
+        </section>
+    </section>
+
+
+    <footer>
+        <div class="leftSide">
+            <img src="images/pokemon.gif" id="logo">
+            <p>Copyright 2023 Abigail.Toekimin</p>
+            <div id="socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-snapchat"></i>
+            </div>
+        </div>
+        <div class="rightSide">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Contact</a>
+        </div>
+    </footer>
